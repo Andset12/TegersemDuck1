@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<!doctype html>
+<html lang="ru">
+
+
+
+<body class="d-flex flex-column">
+
+
+<div class="content flex-grow-1">
+    <div class="top">
+        <div class="container d-flex flex-column h-100">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="/static/img/pictures/logo_s.ppg" alt="logo" width="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="/">Товары</a>
+<!--                        <a class="nav-link" href="/blog/">Услуги</a>-->
+                        <a class="nav-link" href="/contacts/">Покупка</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="d-flex flex-column justify-content-center flex-grow-1">
+                <h1>Привет!</h1>
+                <h1>Это магазин где можно купить стикеры и услуги </h1>
+                <p class="top__text">Надеюсь ты что-то купишь.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row about d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="w-100" src="/static/img/pictures/sass1.jpeg" alt="my photo">
+                </div>
+                <div class="col-md-5">
+                    <h2 class="heading">О качестве и авторе</h2>
+                    <p class="text">Если вы хотите какой-то стикер на заказ пишете нам в разделе Покупка.Автор сайта может зделать вам сайт на заказ всего за 150.А на картинке мой любимый стикер
+                   цена:50 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container why">
+        <h2 class="heading text-center mb-3"><br>Другие стикеры</h2>
+        <div class="row text-center">
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="/static/img/pictures/sass2.jpeg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">Это большой стикер по теме аниме.Цена:50 </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="/static/img/pictures/sass3.jpeg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">Прикольная уточка которую можно приклееть куда хочешь.Цена:30</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="/static/img/pictures/sass4.jpeg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">Просто прикольный стикер.Цена:25.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="/static/img/pictures/sass5.jpeg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">Цеплёнок с ножом.Цена:30</p>
+                    </div>
+                </div>
+                 </div>
+    <h2 class="heading text-center mb-3"><br>НОВИНКИ</h2>
+    </div>
+ <div class="col-md-4 d-flex flex-column justify-content-end">
+                <div class="card">
+                    <img src="/static/img/pictures/sass6.jpeg" alt="photo">
+                    <div class="card-box">
+                        <p class="card-text pl-5 pr-5 mt-3">Уточка.Цена:50</p>
+                    </div>
+                </div>
+
+</body>
+
+
+{% endblock%}
+
+</html>
